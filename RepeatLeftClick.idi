@@ -1,0 +1,25 @@
+// press left mouse button on initial button press and on 16ms loop until released
+PROCEDURE ButtonDown
+	MButton(1,0,90,0)
+RETURN
+END
+
+PROCEDURE ButtonDownRepeat
+	MButton(1,0,90,0)
+RETURN
+END
+
+THREAD Profile
+	Start:
+		WaitForButton(Button, ButtonMask)
+
+		ButtonDown()
+
+		DO
+			ButtonDownRepeat()
+			DelayForMs(16)
+		WHILE (GetKeyboardStatesHid(mod, theKey, 1))
+
+		GOTO Start
+END
+

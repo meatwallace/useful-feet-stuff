@@ -1,0 +1,24 @@
+0	1	Press Release Button	0A Press Release Button.idi	demos the Press Release button	FILE=A_Press Release Button.html
+0	2	Toggle Button	0A Toggle Button.idi	demos the Toggle button	FILE=A_Toggle Button.html
+0	3	Toggle Key	0A Toggle Key.idi	demos toggling a keyboard key	FILE=A_Toggle Key.html
+0	4	Timed Press Button	0A Timed Press Button.idi	demos the Timed Press button	FILE=A_Timed Press Button.html
+0	5	Count Button	0A Count Button.idi	demos the Count button	FILE=A_Count Button.html
+0	6	Gesture Aware Button	0A Gesture Aware Button.idi	demos the mouse gesture aware button	FILE=A_Gesture Aware Button.html
+0	7	Beat Box	0B Beat Box.idi	"demos mouse movement ""distance"" triggers"	FILE=B_Beat Box.html
+0	7	Move Cursor	0B Move Cursor.idi	demos moving the cursor	FILE=B_Move Cursor.html
+0	7	Streaming Text	0B Streaming Text.idi	"demos generating streaming text ""typing"""	FILE=B_Streaming Text.html
+0	7	Test Sound	0B Test sound.idi	demos macro audio capability 	FILE=B_Test sound.html
+0	7	On Screen Display	0B Onscreen Display.idi	demos On Screen Display	FILE=B_Onscreen Display.html
+1		LEDs Alarm	0C LEDs Alarm.idi	Alarm back lighting pattern	FILE=C_LED Flashing Patterns.html
+1		LEDs Heartbeat	0C LEDs Heartbeat.idi	Heartbeat back lighting pattern	FILE=C_LED Flashing Patterns.html
+1		LEDs Pulse	0C LEDs Pulse.idi	Pulse back lighting pattern	FILE=C_LED Flashing Patterns.html
+1		LEDs Scan Left	0C LEDs Scan Left.idi	Scan Left back lighting	FILE=C_LED Flashing Patterns.html
+1		LEDs Scan Right	0C LEDs Scan Right.idi	Scan Right back lighting	FILE=C_LED Flashing Patterns.html
+2		Set 900 dpi	0C Set 900 dpi.idi	demos Omnimouse On-The-Fly tracking	FILE=C_Set 900 dpi.html
+2		F11-12 FP Shift Toggle	0C F11-12 FP Shift Toggle.idi	shifts the Footpedal using the F11 and F12 keys	FILE=C_F11-12 FP Shift Toggle.html
+WINCUxx	CUxx	F8	F8.idi	F8
+WINCUxx	CUxx	F9	F9.idi	F9
+WINCUxx	CUxx	F10	F10.idi	F10
+WINCUxx	CUxx	F11	F11.idi	F11
+WINCUxx	CUxx	Flask Piano	FlaskPiano.idi	Path of Exile - Flask Piano
+WINCUxx	CUxx	Repeat Left Click	RepeatLeftClick.idi	Repeat Left Click

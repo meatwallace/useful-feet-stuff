@@ -1,0 +1,18 @@
+# ignore all the template files the GWS software ships as they're used to generate macros using the macro builder
+GWS example macros.txt
+0A*.idi
+0B*.idi
+0C*.idi
+1A*.idm
+1B*.idm
+1C*.idm
+1D*.idm
+1E*.idm
+2A*.idm
+2B*.idm
+2C*.idm
+2D*.idm
+3A*.idm
+4A*.idm
+4B*.idm
+

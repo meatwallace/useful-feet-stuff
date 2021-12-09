@@ -1,0 +1,24 @@
+PROCEDURE ButtonDown
+	KeyActionHid(0x00,0x44,1)
+RETURN
+END
+
+PROCEDURE ButtonUp
+	KeyActionHid(0x00,0x44,0)
+RETURN
+END
+
+THREAD Profile
+	Start:
+		WaitForButton(Button, ButtonMask)
+
+		ButtonDown()
+
+		DO
+			DelayForMs(16)
+		WHILE ((GetButtonState & ButtonMask) == Button)
+
+		ButtonUp()
+
+		GOTO Start
+END

@@ -1,0 +1,19 @@
+// sequentially presses 1 -> 5 with a 20ms delay between each
+PROCEDURE ButtonDown
+	TypeText("12345",20)
+RETURN
+END
+
+THREAD Profile
+	Start:
+		WaitForButton(Button, ButtonMask)
+
+		ButtonDown()
+
+		DO
+			DelayForMs(16)
+		WHILE ((GetButtonState & ButtonMask) == Button)
+
+		GOTO Start
+END
+
