@@ -9,7 +9,7 @@ software.
 _foot pedals_. buttons for your feet. pretty wild stuff.
 
 in most cases i configure them as simple generic bindings, where each pedal is
-bound to a different function key (F8 -> F11). each key is just bound to context
+bound to a different function key (F7 -> F10). each key is just bound to context
 context specific actions ex. push-to-talk for comms, holding breath and toggling
 sights in Tarkov, etc. i have some more specific setups for things like
 [flask pianoing](./FlaskPiano.idi) in Path of Exile, and

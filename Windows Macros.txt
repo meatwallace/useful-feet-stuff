@@ -16,9 +16,9 @@
 1		LEDs Scan Right	0C LEDs Scan Right.idi	Scan Right back lighting	FILE=C_LED Flashing Patterns.html
 2		Set 900 dpi	0C Set 900 dpi.idi	demos Omnimouse On-The-Fly tracking	FILE=C_Set 900 dpi.html
 2		F11-12 FP Shift Toggle	0C F11-12 FP Shift Toggle.idi	shifts the Footpedal using the F11 and F12 keys	FILE=C_F11-12 FP Shift Toggle.html
+WINCUxx	CUxx	F7	F7.idi	F7
 WINCUxx	CUxx	F8	F8.idi	F8
 WINCUxx	CUxx	F9	F9.idi	F9
 WINCUxx	CUxx	F10	F10.idi	F10
-WINCUxx	CUxx	F11	F11.idi	F11
 WINCUxx	CUxx	Flask Piano	FlaskPiano.idi	Path of Exile - Flask Piano
 WINCUxx	CUxx	Repeat Left Click	RepeatLeftClick.idi	Repeat Left Click

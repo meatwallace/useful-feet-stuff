@@ -1,10 +1,10 @@
 PROCEDURE ButtonDown
-	KeyActionHid(0x00,0x44,1)
+	KeyActionHid(0x00,0x40,1)
 RETURN
 END
 
 PROCEDURE ButtonUp
-	KeyActionHid(0x00,0x44,0)
+	KeyActionHid(0x00,0x40,0)
 RETURN
 END
 
